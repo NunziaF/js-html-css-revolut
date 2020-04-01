@@ -3,6 +3,7 @@
 // primo click, appare il menù;
 // se cliccko che è già visibile, invece scompare.
 
+
 $('.fa-bars').click(
   function(){
     $('.hamburger-menu').show();
@@ -29,4 +30,10 @@ $('.style_hum').hide();
 
 $('.hamburger-menu ul li a').click(function(){
   $(this).next().slideToggle();
+});
+
+//mouse
+
+$('.header-right ul li a').mouseenter(function(){
+  $(this).next().toggle();
 });

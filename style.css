@@ -83,7 +83,7 @@ ul .style li {
 
 @media screen and (max-width: 1100px)
 {
-  .header-left ul, .header-right ul, button {
+  .header-left ul, .header-right ul, .bottone1{
     display: none;
   }
 
@@ -107,6 +107,13 @@ ul .style li {
   .header-right {
     width: 30%;
   }
+
+  .bottone2{
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    left:45%;
+  }
 }
 
 /* hamburger menu  */
@@ -120,7 +127,6 @@ ul .style li {
   display: none;
   padding: 40px 48px 48px 64px;
   background: white;
-
 }
 
 .hamburger-menu ul {
@@ -135,13 +141,11 @@ ul .style li {
   color: #191c1f;
   text-decoration: none;
   font-size: 16px;
-
 }
 
 .hamburger-menu ul li {
   padding-top: 40px;
 }
-
 
 .close {
   display: block;
