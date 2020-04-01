@@ -23,11 +23,10 @@ $('.header-right ul li a').click(function(){
 });
 
 
-
 //Menu a cascata hamburger
 
 $('.style_hum').hide();
 
 $('.hamburger-menu ul li a').click(function(){
-  $(this).next().toggle();
+  $(this).next().slideToggle();
 });
